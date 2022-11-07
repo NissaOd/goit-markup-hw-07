@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-title-color: rgb(255, 255, 255);
+    --typical-lnh: 1.36;
+    --color-logo: #2196F3;
+    --color-text-past-two: #000000;
+    --color-text: #212121;
+    --color-text-past-thre: #757575;
+    --color-footer: rgba(255, 255, 255, 0.6);
+    --color-background: #F5F4FA;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+
+/* убрали маркер */
+
+li {
+    list-style: none;
+}
