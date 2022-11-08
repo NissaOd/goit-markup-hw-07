@@ -199,7 +199,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  gap: 70px;
   align-items: baseline;
 }
 
@@ -268,6 +267,10 @@ body {
 }
 
 /* _____________footer-icon_________________________________________________________________ */
+.footer-icon {
+  margin-left: 70px;
+}
+
 .footer-icon-soc {
   font-weight: 700;
   font-size: 14px;
@@ -309,6 +312,84 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--color-logo);
+}
+
+.subscribe {
+  margin-left: 93px;
+}
+
+.sub-group {
+  display: flex;
+  gap: 12px;
+}
+
+.sub-input {
+  width: 358px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--main-title-color);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.sub-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.sub-input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.sub-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.subscribe-text {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--main-title-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.sub-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 28px;
+  border-radius: 4px;
+  border-color: transparent;
+  border-width: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--color-logo);
+  color: var(--main-title-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: background-color var(--transition-time);
+}
+
+.sub-button:hover,
+.sub-button:focus {
+  background-color: #188ce8;
 }
 
 .title {
@@ -782,84 +863,6 @@ body {
 }
 
 /*  */
-.subscribe {
-  margin-left: 23px;
-}
-
-.sub-group {
-  display: flex;
-  gap: 12px;
-}
-
-.sub-input {
-  width: 358px;
-  padding: 15px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: transparent;
-  color: var(--main-title-color);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.sub-input::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.sub-input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.sub-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.subscribe-text {
-  display: block;
-  margin-bottom: 20px;
-  color: var(--main-title-color);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.sub-button {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 28px;
-  border-radius: 4px;
-  border-color: transparent;
-  border-width: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--color-logo);
-  color: var(--main-title-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  transition: background-color var(--transition-time);
-}
-
-.sub-button:hover,
-.sub-button:focus {
-  background-color: #188ce8;
-}
-
 /*  */
 .is-hidden {
   opacity: 0;
