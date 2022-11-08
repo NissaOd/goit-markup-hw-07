@@ -1,0 +1,50 @@
+.content-doing {
+    padding-bottom: 94px;
+}
+
+.doing {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-past-two);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.doing-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/*  */
+
+.doing-item {
+    position: relative;
+}
+
+.doing-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

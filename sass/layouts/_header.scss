@@ -1,0 +1,127 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+/* из строчного в блочный 
+ display: inline-block; */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* header */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);
+}
+
+.header-logo-white {
+    color: var(--color-text-past-two);
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 93px;
+}
+
+.header-nav-item {
+    text-decoration: none;
+}
+
+.header-link.current {
+    color: var(--color-logo);
+}
+
+
+/* подчеркивание */
+
+.header-link {
+    position: relative;
+}
+
+.header-link.current::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--color-logo);
+    border-radius: 2px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+
+/* ___________________icon___________ */
+
+.header-list-item-icon {
+    fill: currentColor;
+}
+
+
+/* ______________________________ */
+
+.header-link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    transition: color var(--transition-time);
+}
+
+.header-link:hover,
+.header-link-contact:hover {
+    color: var(--color-logo);
+}
+
+.header-link-contact:focus,
+.header-link:focus {
+    color: var(--color-logo);
+}
+
+.header-link-contact {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text-past-thre);
+    align-items: center;
+    gap: 10px;
+    transition: color var(--transition-time);
+}
+

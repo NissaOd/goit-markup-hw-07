@@ -1,0 +1,108 @@
+.team {
+    background-color: var(--color-btn);
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.team-conteiner {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-past-two);
+    margin-bottom: 50px;
+}
+
+.team-list {}
+
+.conteiner-team-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-item {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--main-title-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.team-item:hover {}
+
+.team-item-img {
+    display: flex;
+}
+
+.team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-soc-list {
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+/* _____________soc-icon_________________________________________________________________ */
+
+.team-soc-item {}
+
+.team-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--color-icon);
+    background-color: var(--main-title-color);
+    transition: color var(--transition-time), background-color var(--transition-time);
+}
+
+.team-soc-icon {
+    fill: currentColor;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--color-logo);
+    color: var(--main-title-color)
+}
+
+
+/* ___________-----------------------------____________ */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-past-two);
+    margin-bottom: 10px;
+}
+
+.team-position {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text-past-thre);
+}

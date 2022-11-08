@@ -1,0 +1,133 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.conteiner-foo {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+
+.container-footer-address {
+    margin-top: 20px;
+}
+
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);
+}
+
+.footer-link-white {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+
+.footer-list {}
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-google {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    transition: color var(--transition-time);
+}
+
+.footer-mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-footer);
+    transition: color var(--transition-time);
+}
+
+.footer-tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-footer);
+    transition: color var(--transition-time);
+}
+
+.footer-google:hover,
+.footer-google:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: #188CE8;
+}
+
+
+/* _____________footer-icon_________________________________________________________________ */
+
+.footer-icon {}
+
+.footer-icon-soc {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    transition: color var(--transition-time);
+}
+
+.footer-soc-list {
+    margin-top: 20px;
+}
+
+.footer-icon {}
+
+.footer-soc-item-ot {
+    margin-right: 10px;
+}
+
+.footer-soc-item {
+    display: inline-flex;
+}
+
+.footer-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--main-title-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-time);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--color-logo);
+}
+ 
